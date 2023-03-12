@@ -41,7 +41,7 @@
     - touch README.md, Este comando nos permite crear un archivo vacido, con el nombre y la extension que indiquemos.
 -	Evidencia: 
     - Luego de generar el archivo README.md procedemos a listar todos el contenido del directorio, incluyendo los archivos ocultos del mismo y accedemos a abrir nuestro archivo README.md en nuestro editor de codigo Visual Studio Code.
-    - ![Crear Archivo README.md](./EvidenciasGit/CreacionReadme.PNG.png)
+    - ![Crear Archivo README.md](./EvidenciasGit/CreacionReadme.PNG)
 
 # Commit inicial
 4. Añadir al README.md los comandos utilizados hasta ahora y hacer un commit inicial con el mensaje commit inicial.
@@ -52,4 +52,18 @@
 -	Evidencia: 
     - Luego de generar el archivo README.md y abrirlo en visual studio code, procedemos a insertar todos los comandos y evidencias que llevamos hasta el momento, y procedemos a agregar el archivo al Area de preparacion y luego confirmamos los cambios con el primer commit.
     - ![Estructurar Archivo README.md](./EvidenciasGit/EstructuraReadme.PNG)
-    - ![Git Add y Git commit](./EvidenciasGit/EstructuraReadme.PNG)
+    - ![Git Add](./EvidenciasGit/gitadd.PNG)
+    - ![Git Commit](./EvidenciasGit/gitcommit.PNG)
+
+# Push inicial
+5. Subir los cambios al repositorio remoto.
+-  Comando implementado:  
+    - git push -u origin maestro
+-	Descripción: 
+    - git push -u origin maestro, Este comando envia los commits que tengamos en nuestra rama maestro hacia la rama maestro del repositorio remoto, agregandoe el parametro -u para realizar un seguimiento a la rema remota y rama local que queremos enviar. 
+-	Evidencia: 
+    - Luego de hacer nuestro primer commit, procedemos a enviarlo  del repositorio local, al repositorio Remoto.
+    - ![Push Inicial](./EvidenciasGit/gitpush.PNG)
+    - ![Push Inicial](./EvidenciasGit/pushremoto.PNG)
+
+
