@@ -151,6 +151,6 @@
 -	Evidencia: 
     - Luego de ejecutar el comando g git push origin --tags, se envian los tags al repositorio remoto en github.
     - enviamos el tag v0.1 al repositorio Remoto
-    - ![push tags](./EvidenciasGit/gitlog.PNG)
-    - Creamos nuestro tag v0.1
-    - ![Tag V0.1](./EvidenciasGit/tagv01Created.PNG)
+    - ![push tags](./EvidenciasGit/pushtag.PNG)
+    - Vemos tag en github
+    - ![Tag V0.1 remoto](./EvidenciasGit/tagsenremoto.PNG)
