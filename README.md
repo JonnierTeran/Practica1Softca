@@ -154,6 +154,6 @@
     - enviamos el tag v0.1 al repositorio Remoto
     - ![push tags](./EvidenciasGit/pushtag.PNG)
     - Subimos cambios al repositorio remoto
-    - ![push](./EvidenciasGit/pushtag.PNG)
+    - ![push](./EvidenciasGit/Actualizaciondelrepo11.PNG)
     - Vemos tag en github
     - ![Tag V0.1 remoto](./EvidenciasGit/tagsenremoto.PNG)
