@@ -157,3 +157,92 @@
     - ![push](./EvidenciasGit/Actualizaciondelrepo11.PNG)
     - Vemos tag en github
     - ![Tag V0.1 remoto](./EvidenciasGit/tagsenremoto.PNG)
+
+# Crear una rama v0.2
+12.  Crear una rama v0.2.
+-  Comando implementado:  
+~~~
+    - git branch v0.2
+~~~
+-	Descripción: 
+    - git branch v0.2, nos permite crear una rama de trabajo en nuestro repositorio.
+-	Evidencia: 
+    - Creamos una nueva rama de trabajo con git branch v0.2.
+    - ![Crear rama v0.2](./EvidenciasGit/newbranche.PNG)
+
+
+13. Posiciona tu carpeta de trabajo en esta rama.
+-  Comando implementado:  
+~~~
+    - git checkout v0.2
+~~~
+-	Descripción: 
+    - git checkout v0.2, nos permite posicionarnos en la rama v0.2 de nuestro repositorio.
+-	Evidencia: 
+    - nos posicionamos en la rama v0.2
+    - ![posicionar en rama v0.2](./EvidenciasGit/CambioDeRamav0.2.PNG)
+
+# Añadir fichero 2.txt
+14. Añadir un fichero 2.txt en la rama v0.2.
+-  Comando implementado:  
+~~~
+    - touch 2.txt
+~~~
+-	Descripción: 
+    - touch 2.txt nos permite crear un archivo vacido con su nombre y extension 2.txt
+-	Evidencia: 
+    - creamos un archivo en la nueva rama creada 
+    - ![crear 2.txt](./EvidenciasGit/2txt.PNG)
+
+# Crear rama remota v0.2
+15. Subir los cambios al repositorio remoto.
+-  Comando implementado:  
+~~~
+    - git push -u origin v0.2
+~~~
+-	Descripción: 
+    - git push -u origin v0.2, nos permite enviar al repositorio remoto, la rama v0.2 y sus cambios.
+-	Evidencia: 
+    - Subimos cambios al repositorio Remoto
+    - ![subir al remoto](./EvidenciasGit/RemotoRamav0.2.PNG)
+    - Repositorio remoto
+    - ![subir al remoto](./EvidenciasGit/RemotoRamav0.22.PNG)
+
+16. Posicionarse en la rama master.
+-  Comando implementado:  
+~~~
+    - git checkout maestro
+~~~
+-	Descripción: 
+    - git checkout maestro, nos permite posicionarnos en la rama principal de nuestro repositorio.
+-	Evidencia: 
+    - Posicionar en rama principal
+    - ![crear 2.txt](./EvidenciasGit/returnmaestro.PNG)
+
+# Merge directo
+17. Hacer un merge de la rama v0.2 en la rama master.
+-  Comando implementado:  
+~~~
+    - git merge v0.2
+~~~
+-	Descripción: 
+    - git merge v0.2, nos permite unir las 2 ramas de nuestro repositorio.
+-	Evidencia: 
+    - Merge directo
+    - ![merge](./EvidenciasGit/merge.PNG)
+
+# Merge con conflicto
+18. En la rama master poner Hola en el fichero 1.txt y hacer commit.
+-  Comando implementado:  
+~~~
+    - git commit
+~~~
+-	Descripción: 
+    - agregamos Hola en el fichero y Confirmamos los cambios en el archivo 1.txt de la rama maestro
+-	Evidencia: 
+    - Agregamos texto al archivo 1.txt de la rama maestro
+    - ![Cambios 1.txt](./EvidenciasGit/Hola1txt.PNG)
+
+
+19. Posicionarse en la rama v0.2 y poner Adios en el fichero &quot;1.txt&quot; y hacer commit.
+20. Posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2
