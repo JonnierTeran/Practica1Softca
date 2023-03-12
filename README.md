@@ -125,3 +125,32 @@
     - Luego de ejecutar crear el archivo y ejecutar el comando git add 1.txt podemos mirar que se a agregado con exito el archivo 1.txt a nuestro repositorio.
     - ![Add 1.txt](./EvidenciasGit/add1txt.PNG)
 
+# Crear el tag v0.1
+10. Crear un tag v0.1.
+-  Comando implementado:  
+~~~
+    - git tag V0.1 <commit>
+~~~
+-	Descripción: 
+    - git tag commit, nos permite crear un tag y hacer referencia a un commit especifico.
+-	Evidencia: 
+    - Luego de ejecutar el comando git tag commit, hemos realizado una referencia en el historial de nuestro repositorio, y podemos verla en git tag.
+    - Vemos nuestros commits y elegimos el commit que queremos enlzar al tag v0.1
+    - ![lista de commits](./EvidenciasGit/gitlog.PNG)
+    - Creamos nuestro tag v0.1
+    - ![Tag V0.1](./EvidenciasGit/tagv01Created.PNG)
+
+# Subir el tag v0.1
+11. Subir los cambios al repositorio remoto.
+-  Comando implementado:  
+~~~
+    - git push origin --tags
+~~~
+-	Descripción: 
+    - git push origin --tags, nos permite enviar los tags creados en el repositorio local al repositorio remoto en github.
+-	Evidencia: 
+    - Luego de ejecutar el comando g git push origin --tags, se envian los tags al repositorio remoto en github.
+    - enviamos el tag v0.1 al repositorio Remoto
+    - ![push tags](./EvidenciasGit/gitlog.PNG)
+    - Creamos nuestro tag v0.1
+    - ![Tag V0.1](./EvidenciasGit/tagv01Created.PNG)
