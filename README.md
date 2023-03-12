@@ -149,7 +149,7 @@
 -	Descripción: 
     - git push origin --tags, nos permite enviar los tags creados en el repositorio local al repositorio remoto en github.
 -	Evidencia: 
-    - Luego de ejecutar el comando g git push origin --tags, se envian los tags al repositorio remoto en github.
+    - Luego de ejecutar el comando  git push origin --tags, se envian los tags al repositorio remoto en github.
     - enviamos el tag v0.1 al repositorio Remoto
     - ![push tags](./EvidenciasGit/pushtag.PNG)
     - Vemos tag en github
