@@ -111,4 +111,17 @@
     - Status del repositorio, donde ignora los archivos privado.txt y la carpeta privada creados anteriormente
     - ![status del proyecto ignorando](./EvidenciasGit/StatusIgnored.PNG)
 
+# Añadir fichero 1.txt
+9. Añadir fichero 1.txt al repositorio local.
+-  Comando implementado:  
+~~~
+    - touch 1.txt
+    - git add 1.txt
+~~~
+-	Descripción: 
+    - touch 1.txt, nos permite crear un nuevo archivo llamado 1.txt
+    - git add 1.txt nos permite agregar al repositorio local nuestro archivo 1.txt
+-	Evidencia: 
+    - Luego de ejecutar crear el archivo y ejecutar el comando git add 1.txt podemos mirar que se a agregado con exito el archivo 1.txt a nuestro repositorio.
+    - ![Add 1.txt](./EvidenciasGit/add1txt.PNG)
 
