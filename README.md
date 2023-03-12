@@ -66,4 +66,35 @@
     - ![Push Inicial](./EvidenciasGit/gitpush.PNG)
     - ![Push Inicial](./EvidenciasGit/pushremoto.PNG)
 
+# Ignorar archivos
+6. Crear en el repositorio local un fichero llamado privado.txt.
+-  Comando implementado:  
+    - touch privado.txt
+-	Descripción: 
+    - touch privado.txt, nos permite crear un archivo llamado privado y que sea de estension txt.
+-	Evidencia: 
+    - Luego de ejecutar el comando touch privado.txt podemos mirar que se a agregado un nuevo archivo a nuestro directorio.
+    - ![Crear privado.txt](./EvidenciasGit/CrearPrivado.PNG)
+
+7. Crear en el repositorio local una carpeta llamada privada.
+-  Comando implementado:  
+    - mkdir privada
+-	Descripción: 
+    - mkdir privada, nos permite crear una nueva carpeta dentro de nuestro directorio raiz.
+-	Evidencia: 
+    - Luego de ejecutar el comando mkdir privada podemos mirar que se a agregado una nueva carpteta  a nuestro directorio.
+    - ![Crear carpeta privada](./EvidenciasGit/Carpeta%20privada.PNG)
+8. Realizar los cambios oportunos para que tanto el archivo como la carpeta sea ignorada por git.
+-  Comando implementado:  
+    - touch .gitignore
+-	Descripción: 
+    - touch .gitignore, nos permite crear un archivo oculto de texto plano, donde podremos listar todos los archivos y rutas que queremos que sean ignoradas por git.
+-	Evidencia: 
+    - Luego de ejecutar el comando touch .gitingnore procedemos a abrir el archivo en nuestro editor y listar los archivos que no querermos que sean rastreados por git, lugo miraremos el estado del repositorio y veremos que el archivo privado.txt y la carpeta privada no sean leidos por el repositorio.
+    - ![Crear gitignore](./EvidenciasGit/creargitignore.PNG)
+    - Archivos que seran ignorados:
+    - ![Listar Archivos a Ignorar](./EvidenciasGit/ArchivosIgnorados.PNG)
+    - Status del repositorio, donde ignora los archivos privado.txt y la carpeta privada creados anteriormente
+    - ![status del proyecto ignorando](./EvidenciasGit/StatusIgnored.PNG)
+
 
