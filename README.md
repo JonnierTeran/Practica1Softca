@@ -22,7 +22,9 @@
 
 2. Clonar vuestro repositorio en local.
 -	Comando implementado:  
+~~~
     - git clone https://github.com/JonnierTeran/Practica1Softca.git
+~~~
 -	Descripción: 
     - git clone url, Este comando nos permite clonar nuestro repositorio Remoto en un Repositorio de forma Local en el directorio en que estemos ubicados con nuestra terminal de comandos.
 -	Evidencia: 
@@ -36,7 +38,9 @@
     * y las explicaciones y capturas de pantalla que consideres necesarias.
 
 -  Comando implementado:  
+~~~
     - touch README.md
+~~~
 -	Descripción: 
     - touch README.md, Este comando nos permite crear un archivo vacido, con el nombre y la extension que indiquemos.
 -	Evidencia: 
@@ -46,7 +50,9 @@
 # Commit inicial
 4. Añadir al README.md los comandos utilizados hasta ahora y hacer un commit inicial con el mensaje commit inicial.
 -  Comando implementado:  
+~~~
     - git add . / git commit -m "initial commit"
+~~~
 -	Descripción: 
     - git add . , nos permite Agregar todos los Archivos que queremos añadir al el "staging" o area de preparación, y con git commit -m "initial commit" confirmamos los cambios y los guardamos en el repositorio de forma local.
 -	Evidencia: 
@@ -58,7 +64,9 @@
 # Push inicial
 5. Subir los cambios al repositorio remoto.
 -  Comando implementado:  
+~~~
     - git push -u origin maestro
+~~~
 -	Descripción: 
     - git push -u origin maestro, Este comando envia los commits que tengamos en nuestra rama maestro hacia la rama maestro del repositorio remoto, agregandoe el parametro -u para realizar un seguimiento a la rema remota y rama local que queremos enviar. 
 -	Evidencia: 
@@ -69,7 +77,9 @@
 # Ignorar archivos
 6. Crear en el repositorio local un fichero llamado privado.txt.
 -  Comando implementado:  
+~~~
     - touch privado.txt
+~~~
 -	Descripción: 
     - touch privado.txt, nos permite crear un archivo llamado privado y que sea de estension txt.
 -	Evidencia: 
@@ -78,7 +88,9 @@
 
 7. Crear en el repositorio local una carpeta llamada privada.
 -  Comando implementado:  
+~~~
     - mkdir privada
+~~~
 -	Descripción: 
     - mkdir privada, nos permite crear una nueva carpeta dentro de nuestro directorio raiz.
 -	Evidencia: 
@@ -86,7 +98,9 @@
     - ![Crear carpeta privada](./EvidenciasGit/Carpeta%20privada.PNG)
 8. Realizar los cambios oportunos para que tanto el archivo como la carpeta sea ignorada por git.
 -  Comando implementado:  
+~~~
     - touch .gitignore
+~~~
 -	Descripción: 
     - touch .gitignore, nos permite crear un archivo oculto de texto plano, donde podremos listar todos los archivos y rutas que queremos que sean ignoradas por git.
 -	Evidencia: 
