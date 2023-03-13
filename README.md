@@ -238,11 +238,28 @@
     - git commit
 ~~~
 -	Descripción: 
-    - agregamos Hola en el fichero y Confirmamos los cambios en el archivo 1.txt de la rama maestro
+    - agregamos Hola en el fichero y agregamos y Confirmamos los cambios en el archivo 1.txt de la rama maestro
 -	Evidencia: 
     - Agregamos texto al archivo 1.txt de la rama maestro
     - ![Cambios 1.txt](./EvidenciasGit/Hola1txt.PNG)
+    - agregamos y confirmamos los cambios en la rama maestro
+    - ![Cambios 1.txt](./EvidenciasGit/commitHola.PNG)
+
 
 
 19. Posicionarse en la rama v0.2 y poner Adios en el fichero &quot;1.txt&quot; y hacer commit.
+-  Comando implementado:  
+~~~
+    - git checkout v0.2
+    - git add .
+    - git commit -m "Message"
+~~~
+-	Descripción: 
+    - cambiamos de la rama maestro a la rama v0.2 y  agregamos en el fichero 1.txt el mensaje de "ADIOS", agregamos al area de preparacion y confirmamos los cambios en la rama v0.2
+-	Evidencia: 
+    - Agregamos texto al archivo 1.txt de la rama v0.2
+    - ![Cambios 1.txt](./EvidenciasGit/Hola1txt.PNG)
+    - agregamos y confirmamos los cambios en la rama v0.2
+    - ![Cambios 1.txt](./EvidenciasGit/commitHola.PNG)
+    
 20. Posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2
