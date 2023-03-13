@@ -257,10 +257,12 @@
 -	Descripción: 
     - cambiamos de la rama maestro a la rama v0.2 y  agregamos en el fichero 1.txt el mensaje de "ADIOS", agregamos al area de preparacion y confirmamos los cambios en la rama v0.2
 -	Evidencia: 
+    - Cambio de rama
+    - ![Cambios de rama](./EvidenciasGit/v02CambiodeRama.PNG)
     - Agregamos texto al archivo 1.txt de la rama v0.2
-    - ![Cambios 1.txt](./EvidenciasGit/Hola1txt.PNG)
+    - ![Cambios 1.txt](./EvidenciasGit/V02Adios.PNG)
     - agregamos y confirmamos los cambios en la rama v0.2
-    - ![Cambios 1.txt](./EvidenciasGit/commitHola.PNG)
+    - ![commit 1.txt rama v0.2](./EvidenciasGit/v02commit.PNG)
     
 20. Posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2
 - merge con conflcito
@@ -278,7 +280,59 @@
     - ![maestro](./EvidenciasGit/maestroCambioDeRama.PNG)
     - Merge con conflicto en git
     - ![merge](./EvidenciasGit/conflicto1.PNG)
+
+
+
+# Listado de ramas
+21. Listar las ramas con merge y las ramas sin merge.
+-  Comando implementado:  
+~~~
+    - git branch --merged
+    - git branch --no-merged
+~~~
+-	Descripción: 
+    - con los anteriores comandos vemos las ramas con merge y las ramas sin merge
+    Obtenemos un conflicto ya que hemos modificado el mismo archivo en el mismo espacio.
+-	Evidencia: 
+    - rama con merge
+    - ![merge branch](./EvidenciasGit/Ramas%20con%20merge.PNG)
+    - ramas sin merge (obvervamos que no hay ramas sin merge a la rama actual)
+    - ![not merge](./EvidenciasGit/ramas%20sin%20merge.PNG)
+
+
+# Arreglar conflicto
+22. Arreglar el conflicto anterior y hacer un commit.
+    - Merge con conflicto en git
+    - ![merge conflicto](./EvidenciasGit/conflicto1.PNG)
     - Vemos el conflicto en visual studio code
     - ![merge](./EvidenciasGit/conflictovsc.PNG)
     - Solucionamos el conflicto eligiendo uno de los cambios, elegiremos el Hola de la rama maestro
     - ![merge](./EvidenciasGit/Soluciondeconflicto.PNG)
+    - commit para solucionar conflictos
+    - ![merge](./EvidenciasGit/commitconflicto.PNG)
+
+# Borrar rama
+23. Crear un tag v0.2
+-  Comando implementado:  
+~~~
+    - git tag V0.2 <commit>
+~~~
+-	Descripción: 
+    - git tag x commit, nos permite crear un tag y hacer referencia a un commit especifico.
+-	Evidencia: 
+    - Luego de ejecutar el comando git tag commit, hemos realizado una referencia en el historial de nuestro repositorio, y podemos verla en git tag.
+    - Vemos nuestros commits y elegimos el commit que queremos enlzar al tag v0.2
+    - ![lista de commits](./EvidenciasGit/log2.PNG)
+    - Creamos nuestro tag v0.2
+    - ![Tag V0.1](./EvidenciasGit/tag2.PNG)
+
+24. Borrar la rama v0.2
+-  Comando implementado:  
+~~~
+    - git branch -d v0.2
+~~~
+-	Descripción: 
+    - git branch -d v0.2, nos permite eliminar una rama indicada
+-	Evidencia: 
+    - Luego de ejecutar el comando git branch -d v0.2, hemos eliminado la rama v0.2
+    - ![delete rama](./EvidenciasGit/)
