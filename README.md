@@ -335,4 +335,20 @@
     - git branch -d v0.2, nos permite eliminar una rama indicada
 -	Evidencia: 
     - Luego de ejecutar el comando git branch -d v0.2, hemos eliminado la rama v0.2
-    - ![delete rama](./EvidenciasGit/)
+    - ![delete rama](./EvidenciasGit/deleterama.PNG)
+
+# Listado de cambios
+25. Listar los distintos commits con sus ramas y sus tags.
+-  Comando implementado:  
+~~~
+    - git config --global alias.list 'log --oneline --decorate --graph --all'
+    - git list
+~~~
+-	Descripción: 
+    - colocamos un alias al comando list y ejecutamos
+-	Evidencia: 
+    - Luego de ejecutar el comando git branch -d v0.2, hemos eliminado la rama v0.2
+    - ![list ramas](./EvidenciasGit/list.PNG)
+
+
+# F I N - D E - L A - A C T I V I D A D
