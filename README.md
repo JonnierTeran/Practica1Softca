@@ -263,3 +263,22 @@
     - ![Cambios 1.txt](./EvidenciasGit/commitHola.PNG)
     
 20. Posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2
+- merge con conflcito
+-  Comando implementado:  
+~~~
+    - git checkout maestro
+    - git merge v0.2
+~~~
+-	Descripción: 
+    - git checkout maestro nos posicionamos en maestro nuevamente.
+    - git merge v0.2, nos permite unir las 2 ramas de nuestro repositorio
+    Obtenemos un conflicto ya que hemos modificado el mismo archivo en el mismo espacio.
+-	Evidencia: 
+    - rama maestro
+    - ![maestro](./EvidenciasGit/maestroCambioDeRama.PNG)
+    - Merge con conflicto en git
+    - ![merge](./EvidenciasGit/conflicto1.PNG)
+    - Vemos el conflicto en visual studio code
+    - ![merge](./EvidenciasGit/conflictovsc.PNG)
+    - Solucionamos el conflicto eligiendo uno de los cambios, elegiremos el Hola de la rama maestro
+    - ![merge](./EvidenciasGit/Soluciondeconflicto.PNG)
